@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public Node currentNode;
 
+    public CameraRig rig;
+
     void Awake()
     {
         ins = this;
